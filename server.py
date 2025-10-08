@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-YOUTUBE_API_KEY = "AIzaSyDNWF1-aAIueeO6QNbrsarXqNuL0xGJ1ls"
+YOUTUBE_API_KEY = "AIzaSyDLWmZTC3D90ETsoQ2ldrL4YQdD8yKnoCM"
 
 @app.get("/")
 def home():
